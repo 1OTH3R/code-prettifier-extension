@@ -85,7 +85,7 @@ This is a code prettifier, not a code fixer/debugger. Also, please close your ta
 
 I don't mind you utilizing this, just give appropriate credit and refrain from turning it into malicious software. Have fun!
 
-If you encounter any issues, comment them ig
+If you encounter any issues or have any requests, place them in the `Issues` tab!
 
 ---
 
