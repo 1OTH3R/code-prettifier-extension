@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Code Prettifier</title>
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 20px;
+      width: 350px;
+      background-color: #1e1e2f; /* Very dark blue background */
+      color: #d4d4d4; /* Light gray text for readability */
+    }
+
+    h3 {
+      color: #e1e1e6; /* Slightly lighter shade for titles */
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      margin-top: 10px;
+      border: 1px solid #444; /* Dark border */
+      background-color: #2e2e47; /* Dark background for textareas */
+      color: #d4d4d4; /* Light text */
+      font-size: 14px;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: 'Courier New', monospace;
+      transition: background-color 0.3s ease;
+    }
+
+    textarea:focus {
+      outline: none;
+      background-color: #3a3a64; /* Darker shade for focus */
+    }
+
+    select, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #3a3a64; /* Dark background for select and button */
+      color: #d4d4d4; /* Light text */
+      border: 1px solid #444;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    select:hover, button:hover {
+      background-color: #505085; /* Slightly lighter blue on hover */
+    }
+
+    button:active {
+      background-color: #3a3a64; /* Keep it consistent on click */
+    }
+
+    button:disabled {
+      background-color: #666;
+      cursor: not-allowed;
+    }
+
+    /* Output area styling */
+    #output {
+      width: 100%;
+      height: 120px;
+      margin-top: 10px;
+      background-color: #2e2e47; /* Dark background */
+      color: #d4d4d4; /* Light text */
+      border: 1px solid #444;
+      font-family: 'Courier New', monospace;
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 14px;
+      overflow-y: auto;
+    }
+
+    #output:focus {
+      outline: none;
+    }
+
+    /* Optional: Adding some smooth transitions for all UI elements */
+    input, textarea, select, button {
+      transition: all 0.3s ease-in-out;
+    }
+
+  </style>
+</head>
+<body>
+  <h3>Paste your code:</h3>
+  <select id="language">
+    <option value="javascript">JavaScript</option>
+    <option value="html">HTML</option>
+    <option value="css">CSS</option>
+    <option value="json">JSON</option>
+  </select>
+  <textarea id="codeInput" placeholder="Paste code here..."></textarea>
+  <button id="prettifyBtn">Prettify</button>
+  <textarea id="output" placeholder="Formatted code..." readonly></textarea>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
