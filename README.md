@@ -35,7 +35,7 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 ---
 
-## 🛠️ How to Use
+<h2>🛠️ How to Use</h2>
 
 1. Click the extension icon 🧼
 2. Choose your **code type** (JavaScript, HTML, etc.)
@@ -45,17 +45,17 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 ---
 
-<details><summary>## 📁 Project Structure</summary>
+<h2>📁 Project Structure</h2>
 
 ├── manifest.json<br>
 ├── popup.html<br>
 ├── popup.js<br>
-├── prettier/<br>
+<details><summary>├── prettier/<br></summary>
 |   ├── standalone.js │<br>
 |   ├── parser-html.js │<br>
 |   ├── parser-babel.js │<br>
 |   ├── parser-postcss.js │<br>
-|   └── parser-estree.js<br>
+|   └── parser-estree.js<br></details>
 └── icon.png
 </details>
 
