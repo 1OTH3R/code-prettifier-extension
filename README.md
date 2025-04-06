@@ -5,24 +5,25 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 ---
 
-## ✨ Features
+<h2>✨ Features</h2>
 
 - ✅ Supports **JavaScript**, **HTML**, **CSS**, and **JSON**
-- 🎨 Modern, clean **dark mode** with deep blue vibes
+- 🎨 Modern, clean **dark mode** with deep blue vibes (similar to this, now that I notice)
 - ⚙️ Uses **Prettier v3.5.3** under the hood (fully offline)
 - 🧠 Easy-to-use dropdown & real-time formatting
 - 📦 No external internet requests — secure & local
 
 ---
 
-## 🚀 How to Install
+<h2>🚀 How to Install</h2>
 
-1. **Clone or download this repo**
+1. **Clone or download this repo, then...**
    - Click the green `Code` button → `Download ZIP`
    - Or clone via terminal:
      ```bash
-     git clone https://github.com/YOUR-USERNAME/code-prettifier-extension.git
+     git clone https://github.com/1OTH3R/code-prettifier-extension.git
      ```
+   - Make sure to extract it anywhere on your device that you know you can keep it safe.
 
 2. **Go to** `chrome://extensions` in your browser
 
@@ -30,7 +31,7 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 4. Click **Load unpacked** and select the folder you just downloaded
 
-5. You’ll now see the 💫 Code Prettifier icon in your toolbar
+5. You’ll now see the Code Prettifier icon in your toolbar 💫
 
 ---
 
@@ -44,18 +45,19 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 ---
 
-## 📁 Project Structure
+<details><summary>## 📁 Project Structure</summary>
 
-├── manifest.json
-├── popup.html
-├── popup.js
-├── prettier/ │
-    ├── standalone.js │
-    ├── parser-html.js │
-    ├── parser-babel.js │
-    ├── parser-postcss.js │
-    └── parser-estree.js
+├── manifest.json<br>
+├── popup.html<br>
+├── popup.js<br>
+├── prettier/<br>
+|   ├── standalone.js │<br>
+|   ├── parser-html.js │<br>
+|   ├── parser-babel.js │<br>
+|   ├── parser-postcss.js │<br>
+|   └── parser-estree.js<br>
 └── icon.png
+</details>
 
 ---
 
@@ -85,4 +87,4 @@ MIT
 
 ---
 
-Made with 💙 by [1OTH3R]  
+Made with 💙 by [1OTH3R](https://github.com/1OTH3R)
