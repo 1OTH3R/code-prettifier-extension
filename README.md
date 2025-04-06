@@ -85,4 +85,4 @@ MIT
 
 ---
 
-Made with 💙 by [YOUR NAME]  
+Made with 💙 by [1OTH3R]  
