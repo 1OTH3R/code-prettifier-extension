@@ -11,7 +11,7 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 <h2>✨ Features</h2>
 
 - ✅ Supports **JavaScript**, **HTML**, **CSS**, and **JSON**
-- 🎨 Modern, clean **dark mode** with deep blue vibes (similar to GitHub's theme, now that I notice)
+- 🎨 Modern, clean **dark mode** with deep blue vibes (similar to GitHub's dark theme, now that I notice)
 - ⚙️ Uses **Prettier v3.5.3** under the hood (fully offline)
 - 🧠 Easy-to-use dropdown & real-time formatting
 - 📦 No external internet requests — secure & local
