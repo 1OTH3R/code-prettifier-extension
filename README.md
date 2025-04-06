@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/VYQNN1G4/icon.png"  alt="Icon" width="200" height="200" style="vertical-align: middle; margin-right: 10px;">
+<div align="center"><img src="https://i.ibb.co/JwcwBdJC/icon-small.png" alt="Icon" width="200" height="200" style="object-fit: contain;"></div>
 <h1 style="font-size: 32px; font-weight: bold; vertical-align: middle;"> Code Prettifier Chrome Extension </h1>
 
 A sleek, dark-mode Chrome extension that lets you **prettify and format code** right from your browser popup using [Prettier v3.5.3](https://prettier.io/). Supports JavaScript, HTML, CSS, and JSON — with a modern UI built for simplicity.
@@ -50,13 +50,13 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 ├── manifest.json<br>
 ├── popup.html<br>
 ├── popup.js<br>
-<details><summary>├── prettier/<br></summary>
-|   ├── standalone.js │<br>
-|   ├── parser-html.js │<br>
-|   ├── parser-babel.js │<br>
-|   ├── parser-postcss.js │<br>
-|   └── parser-estree.js<br></details>
-└── icon.png
+├── icon.png<br>
+└── prettier/...<br>
+⠀⠀⠀├── standalone.js<br>
+⠀⠀⠀├── parser-html.js<br>
+⠀⠀⠀├── parser-babel.js<br>
+⠀⠀⠀├── parser-postcss.js<br>
+⠀⠀⠀└── parser-estree.js<br></details>
 </details>
 
 ---
