@@ -11,7 +11,7 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 <h2>✨ Features</h2>
 
 - ✅ Supports **JavaScript**, **HTML**, **CSS**, and **JSON**
-- 🎨 Modern, clean **dark mode** with deep blue vibes (similar to this, now that I notice)
+- 🎨 Modern, clean **dark mode** with deep blue vibes (similar to GitHub's theme, now that I notice)
 - ⚙️ Uses **Prettier v3.5.3** under the hood (fully offline)
 - 🧠 Easy-to-use dropdown & real-time formatting
 - 📦 No external internet requests — secure & local
@@ -67,13 +67,13 @@ This is a code prettifier, not a code fixer/debugger.
 
 ---
 
-## 📸 Screenshots
+<h2>📸 Screenshots</h2>
 
 > <p>I will probably place a screenshot here later ¯\_(ツ)_/¯</p>
 
 ---
 
-## 🧠 Tech Stack
+<h2>🧠 Tech Stack</h2>
 
 - Vanilla JS + HTML/CSS
 - [Prettier 3.5.3](https://prettier.io/) (via standalone + plugins)
@@ -81,15 +81,42 @@ This is a code prettifier, not a code fixer/debugger.
 
 ---
 
-## 🤝 Community
+<h2>🤝 Community</h2>
 
-Frankly, I don't mind what y'all do with this as long as you give credit and don't turn it into a virus (sorry guys). Have fun!
+"I don't mind you utilizing this, just give appropriate credit and refrain from turning it into malicious software. Have fun!
 
 ---
 
-## 📝 License
+<h2>📝 License</h2>
 
-MIT
+Look at the `License Page` or view this quick summary (might be wrong, sorry):
+
+<h3>You Can:</h3>
+
+✅ Copy and distribute verbatim copies of the license.<br>
+✅ Share and modify the software (under the same license).<br>
+✅ Distribute copies with source code and access to source.<br>
+✅ Charge for copies, but must retain the same freedoms for recipients.<br>
+✅ Convey modified versions with appropriate notices and licensing.<br>
+✅ Combine with other works under GNU Affero GPL.<br>
+✅ Use it freely, but convey any derived works under the same license.<br>
+
+<h3>You Can't:</h3>
+
+❌ Change the terms of the license when redistributing.<br>
+❌ Impose further restrictions on recipients' rights.<br>
+❌ Incorporate into proprietary software.<br>
+❌ Waive user rights or restrict access to source code.<br>
+❌ Convey without providing the corresponding source code.<br>
+❌ Use patents to restrict rights granted by the license.<br>
+
+<h3>Key Responsibilities:</h3>
+
+📜 Ensure recipients know their rights.<br>
+📜 Provide source code upon distribution.<br>
+📜 State modifications made to the software.<br>
+📜 Maintain proper legal notices in all copies.<br>
+
 
 ---
 
