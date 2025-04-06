@@ -1,4 +1,7 @@
-<div align="center"><img src="https://i.ibb.co/JwcwBdJC/icon-small.png" alt="Icon" width="200" height="200" style="object-fit: contain;"></div>
+<div>
+<div align="center">
+   <img src="https://i.ibb.co/JwcwBdJC/icon-small.png" alt="Icon" width="200" height="200" style="object-fit: contain;">
+</div>
 <h1 style="font-size: 32px; font-weight: bold; vertical-align: middle;"> Code Prettifier Chrome Extension </h1>
 
 A sleek, dark-mode Chrome extension that lets you **prettify and format code** right from your browser popup using [Prettier v3.5.3](https://prettier.io/). Supports JavaScript, HTML, CSS, and JSON — with a modern UI built for simplicity.
@@ -37,11 +40,15 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 <h2>🛠️ How to Use</h2>
 
-1. Click the extension icon 🧼
+1. Click the extension icon
 2. Choose your **code type** (JavaScript, HTML, etc.)
 3. Paste your messy code into the first box
 4. Hit the **“Prettify”** button
 5. Copy the clean, formatted result from the output area
+
+One important thing to know is that this will not accept dysfunctional code.
+<br>
+This is a code prettifier, not a code fixer/debugger.
 
 ---
 
@@ -56,28 +63,27 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 ⠀⠀⠀├── parser-html.js<br>
 ⠀⠀⠀├── parser-babel.js<br>
 ⠀⠀⠀├── parser-postcss.js<br>
-⠀⠀⠀└── parser-estree.js<br></details>
-</details>
+⠀⠀⠀└── parser-estree.js
 
 ---
 
 ## 📸 Screenshots
 
-> (You can add these later by taking a few screenshots of your extension in use!)
+> <p>I will probably place a screenshot here later ¯\_(ツ)_/¯</p>
 
 ---
 
 ## 🧠 Tech Stack
 
 - Vanilla JS + HTML/CSS
-- Prettier 3.5.3 (via standalone + plugins)
+- [Prettier 3.5.3](https://prettier.io/) (via standalone + plugins)
 - Dark Mode UI (custom styled)
 
 ---
 
-## 🤝 Contributing
+## 🤝 Community
 
-Pull requests welcome! For major changes, please open an issue first to discuss what you’d like to change.
+Frankly, I don't mind what y'all do with this as long as you give credit and don't turn it into a virus (sorry guys). Have fun!
 
 ---
 
@@ -87,4 +93,5 @@ MIT
 
 ---
 
-Made with 💙 by [1OTH3R](https://github.com/1OTH3R)
+This is my first project, made with 💙 by me ([1OTH3R](https://github.com/1OTH3R)) with some help from GPT.
+</div>
