@@ -48,7 +48,7 @@ A sleek, dark-mode Chrome extension that lets you **prettify and format code** r
 
 One important thing to know is that this will not accept dysfunctional code.
 <br>
-This is a code prettifier, not a code fixer/debugger.
+This is a code prettifier, not a code fixer/debugger. Also, please close your tags.
 
 ---
 
@@ -83,7 +83,9 @@ This is a code prettifier, not a code fixer/debugger.
 
 <h2>🤝 Community</h2>
 
-"I don't mind you utilizing this, just give appropriate credit and refrain from turning it into malicious software. Have fun!
+I don't mind you utilizing this, just give appropriate credit and refrain from turning it into malicious software. Have fun!
+
+If you encounter any issues, comment them ig
 
 ---
 
